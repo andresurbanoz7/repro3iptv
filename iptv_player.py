@@ -76,7 +76,7 @@ class IPTVPlayer:
         if not selection:
             messagebox.showwarning("No Channel Selected", "Please select a channel from the list.")
             return
-
+        
         index = selection[0]
         channel_url = self.channels[index]
         media = self.Instance.media_new(channel_url)
