@@ -1,0 +1,334 @@
+[
+  {
+    "nombre": "A&EHD",
+    "url": "http://181.78.27.128:8000/play/a01v/index.m3u8"
+  },
+  {
+    "nombre": "AMERICA TV",
+    "url": "http://181.78.27.128:8000/play/a01x/index.m3u8"
+  },
+  {
+    "nombre": "ANIMAL PLANET",
+    "url": "http://181.78.27.128:8000/play/a01y/index.m3u8"
+  },
+  {
+    "nombre": "AXN HD",
+    "url": "http://181.78.27.128:8000/play/a01w/index.m3u8"
+  },
+  {
+    "nombre": "Abc Tv",
+    "url": "http://181.78.27.128:8000/play/a05r/index.m3u8"
+  },
+  {
+    "nombre": "C5N ARG",
+    "url": "http://181.78.27.128:8000/play/a01z/index.m3u8"
+  },
+  {
+    "nombre": "C9N 61W",
+    "url": "http://181.78.27.128:8000/play/a021/index.m3u8"
+  },
+  {
+    "nombre": "C9n",
+    "url": "http://181.78.27.128:8000/play/a05s/index.m3u8"
+  },
+  {
+    "nombre": "CANAL 26",
+    "url": "http://181.78.27.128:8000/play/a01u/index.m3u8"
+  },
+  {
+    "nombre": "CANAL DE LAS ESTRELLAS",
+    "url": "http://181.78.27.128:8000/play/a023/index.m3u8"
+  },
+  {
+    "nombre": "CARTOON NETWORT HD",
+    "url": "http://181.78.27.128:8000/play/a024/index.m3u8"
+  },
+  {
+    "nombre": "CINECANAL HD",
+    "url": "http://181.78.27.128:8000/play/a025/index.m3u8"
+  },
+  {
+    "nombre": "CINEMAX HD",
+    "url": "http://181.78.27.128:8000/play/a02b/index.m3u8"
+  },
+  {
+    "nombre": "CLARO SPORT",
+    "url": "http://181.78.27.128:8000/play/a02g/index.m3u8"
+  },
+  {
+    "nombre": "CN23",
+    "url": "http://181.78.27.128:8000/play/a04r/index.m3u8"
+  },
+  {
+    "nombre": "CNN ESPAÑOL 61W",
+    "url": "http://181.78.27.128:8000/play/a022/index.m3u8"
+  },
+  {
+    "nombre": "COMEDY CENTRAL",
+    "url": "http://181.78.27.128:8000/play/a02h/index.m3u8"
+  },
+  {
+    "nombre": "CRONICA TV",
+    "url": "http://181.78.27.128:8000/play/a04k/index.m3u8"
+  },
+  {
+    "nombre": "Canal AlbNET",
+    "url": "http://181.78.27.128:8000/play/a05p/index.m3u8"
+  },
+  {
+    "nombre": "Cartoonito HD",
+    "url": "http://181.78.27.128:8000/play/a003/index.m3u8"
+  },
+  {
+    "nombre": "DISCOVERY CHANNEL HD",
+    "url": "http://181.78.27.128:8000/play/a02i/index.m3u8"
+  },
+  {
+    "nombre": "DISCOVERY H&H HD",
+    "url": "http://181.78.27.128:8000/play/a02j/index.m3u8"
+  },
+  {
+    "nombre": "DISCOVERY KIDS",
+    "url": "http://181.78.27.128:8000/play/a02k/index.m3u8"
+  },
+  {
+    "nombre": "DISCOVERY THEATER",
+    "url": "http://181.78.27.128:8000/play/a02l/index.m3u8"
+  },
+  {
+    "nombre": "DISCOVERY TURBO",
+    "url": "http://181.78.27.128:8000/play/a02m/index.m3u8"
+  },
+  {
+    "nombre": "DISCOVERY WORD",
+    "url": "http://181.78.27.128:8000/play/a02n/index.m3u8"
+  },
+  {
+    "nombre": "DISNEY CHANNEL HD",
+    "url": "http://181.78.27.128:8000/play/a02o/index.m3u8"
+  },
+  {
+    "nombre": "DISNEY JUNIOR",
+    "url": "http://181.78.27.128:8000/play/a02p/index.m3u8"
+  },
+  {
+    "nombre": "Deporte Py+",
+    "url": "http://181.78.27.128:8000/play/a061/index.m3u8"
+  },
+  {
+    "nombre": "EL GOURMET",
+    "url": "http://181.78.27.128:8000/play/a04w/index.m3u8"
+  },
+  {
+    "nombre": "EL NUEVE ARG HD",
+    "url": "http://181.78.27.128:8000/play/a04u/index.m3u8"
+  },
+  {
+    "nombre": "EL TRECE ARG HD",
+    "url": "http://181.78.27.128:8000/play/a04v/index.m3u8"
+  },
+  {
+    "nombre": "ENCUENTRO HD",
+    "url": "http://181.78.27.128:8000/play/a04t/index.m3u8"
+  },
+  {
+    "nombre": "El Trece Arg",
+    "url": "http://181.78.27.128:8000/play/a05y/index.m3u8"
+  },
+  {
+    "nombre": "FOX SPORT 2 HD",
+    "url": "http://181.78.27.128:8000/play/a02r/index.m3u8"
+  },
+  {
+    "nombre": "FOX SPORT 3 HD",
+    "url": "http://181.78.27.128:8000/play/a02s/index.m3u8"
+  },
+  {
+    "nombre": "FOX SPORT HD",
+    "url": "http://181.78.27.128:8000/play/a02t/index.m3u8"
+  },
+  {
+    "nombre": "FX HD",
+    "url": "http://181.78.27.128:8000/play/a02q/index.m3u8"
+  },
+  {
+    "nombre": "GEN PY",
+    "url": "http://181.78.27.128:8000/play/a00a/index.m3u8"
+  },
+  {
+    "nombre": "GOL TV",
+    "url": "http://181.78.27.128:8000/play/a02u/index.m3u8"
+  },
+  {
+    "nombre": "HISTORY CHANNEL HD",
+    "url": "http://181.78.27.128:8000/play/a04j/index.m3u8"
+  },
+  {
+    "nombre": "HTV",
+    "url": "http://181.78.27.128:8000/play/a02v/index.m3u8"
+  },
+  {
+    "nombre": "ID DISCOVERY",
+    "url": "http://181.78.27.128:8000/play/a02w/index.m3u8"
+  },
+  {
+    "nombre": "IP",
+    "url": "http://181.78.27.128:8000/play/a055/index.m3u8"
+  },
+  {
+    "nombre": "LA NACION",
+    "url": "http://181.78.27.128:8000/play/a02x/index.m3u8"
+  },
+  {
+    "nombre": "LA TELE PY",
+    "url": "http://181.78.27.128:8000/play/a017/index.m3u8"
+  },
+  {
+    "nombre": "LAPACHO TV",
+    "url": "http://181.78.27.128:8000/play/a04o/index.m3u8"
+  },
+  {
+    "nombre": "MTV",
+    "url": "http://181.78.27.128:8000/play/a02y/index.m3u8"
+  },
+  {
+    "nombre": "NAT GEO HD",
+    "url": "http://181.78.27.128:8000/play/a02z/index.m3u8"
+  },
+  {
+    "nombre": "NICK JUNIOR",
+    "url": "http://181.78.27.128:8000/play/a036/index.m3u8"
+  },
+  {
+    "nombre": "NICKELODEON",
+    "url": "http://181.78.27.128:8000/play/a037/index.m3u8"
+  },
+  {
+    "nombre": "NPY IPTV",
+    "url": "http://181.78.27.128:8000/play/a018/index.m3u8"
+  },
+  {
+    "nombre": "PAKA PAKA",
+    "url": "http://181.78.27.128:8000/play/a04x/index.m3u8"
+  },
+  {
+    "nombre": "PARAGUAY TV",
+    "url": "http://181.78.27.128:8000/play/a039/index.m3u8"
+  },
+  {
+    "nombre": "PARAMOUNT HD",
+    "url": "http://181.78.27.128:8000/play/a03a/index.m3u8"
+  },
+  {
+    "nombre": "PARAVISION",
+    "url": "http://181.78.27.128:8000/play/a038/index.m3u8"
+  },
+  {
+    "nombre": "RCN NOVELAS",
+    "url": "http://181.78.27.128:8000/play/a03b/index.m3u8"
+  },
+  {
+    "nombre": "SNT",
+    "url": "http://181.78.27.128:8000/play/a03e/index.m3u8"
+  },
+  {
+    "nombre": "SNT",
+    "url": "http://181.78.27.128:8000/play/a05t/index.m3u8"
+  },
+  {
+    "nombre": "SONY HD",
+    "url": "http://181.78.27.128:8000/play/a03h/index.m3u8"
+  },
+  {
+    "nombre": "SONY MOVIES HD",
+    "url": "http://181.78.27.128:8000/play/a03i/index.m3u8"
+  },
+  {
+    "nombre": "SPACE HD",
+    "url": "http://181.78.27.128:8000/play/a03o/index.m3u8"
+  },
+  {
+    "nombre": "STAR CHANNEL HD",
+    "url": "http://181.78.27.128:8000/play/a03r/index.m3u8"
+  },
+  {
+    "nombre": "SUR TV",
+    "url": "http://181.78.27.128:8000/play/a03g/index.m3u8"
+  },
+  {
+    "nombre": "TELEFE HD",
+    "url": "http://181.78.27.128:8000/play/a04h/index.m3u8"
+  },
+  {
+    "nombre": "TELEMUNDO",
+    "url": "http://181.78.27.128:8000/play/a04i/index.m3u8"
+  },
+  {
+    "nombre": "TLC",
+    "url": "http://181.78.27.128:8000/play/a03t/index.m3u8"
+  },
+  {
+    "nombre": "TLNOVELAS",
+    "url": "http://181.78.27.128:8000/play/a04y/index.m3u8"
+  },
+  {
+    "nombre": "TN HD",
+    "url": "http://181.78.27.128:8000/play/a03v/index.m3u8"
+  },
+  {
+    "nombre": "TNT HD",
+    "url": "http://181.78.27.128:8000/play/a043/index.m3u8"
+  },
+  {
+    "nombre": "TNT NOVELAS HD",
+    "url": "http://181.78.27.128:8000/play/a045/index.m3u8"
+  },
+  {
+    "nombre": "TNT SERIES",
+    "url": "http://181.78.27.128:8000/play/a04c/index.m3u8"
+  },
+  {
+    "nombre": "TRECE PY",
+    "url": "http://181.78.27.128:8000/play/a04l/index.m3u8"
+  },
+  {
+    "nombre": "TV CAMARA",
+    "url": "http://181.78.27.128:8000/play/a04d/index.m3u8"
+  },
+  {
+    "nombre": "TV PUBLICA CH",
+    "url": "http://181.78.27.128:8000/play/a015/index.m3u8"
+  },
+  {
+    "nombre": "TV PUBLICA HD",
+    "url": "http://181.78.27.128:8000/play/a04g/index.m3u8"
+  },
+  {
+    "nombre": "TYC SPORT HD",
+    "url": "http://181.78.27.128:8000/play/a04n/index.m3u8"
+  },
+  {
+    "nombre": "TeleSUR",
+    "url": "http://181.78.27.128:8000/play/a04z/index.m3u8"
+  },
+  {
+    "nombre": "Telefe Arg",
+    "url": "http://181.78.27.128:8000/play/a05x/index.m3u8"
+  },
+  {
+    "nombre": "Telefuturo IPTV",
+    "url": "http://181.78.27.128:8000/play/a016/index.m3u8"
+  },
+  {
+    "nombre": "UNICANAL  PY",
+    "url": "http://181.78.27.128:8000/play/a04p/index.m3u8"
+  },
+  {
+    "nombre": "UNIVERSAL HD",
+    "url": "http://181.78.27.128:8000/play/a04q/index.m3u8"
+  },
+  {
+    "nombre": "WARNER HD",
+    "url": "http://181.78.27.128:8000/play/a04s/index.m3u8"
+  }
+]
