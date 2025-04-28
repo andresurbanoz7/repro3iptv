@@ -4,6 +4,10 @@ import tkinter as tk
 from tkinter import messagebox, simpledialog, Listbox, Scrollbar
 import vlc
 import platform
+import os
+import json
+
+CHANNELS_FILE = "channels.json"
 
 class IPTVPlayer:
     def __init__(self, root):
@@ -43,19 +47,21 @@ class IPTVPlayer:
 
         # List of Channels
         self.channels_frame = tk.Frame(self.root)
-        self.channels_frame.pack(fill=tk.X)
+        self.channels_frame.pack(fill=tk.BOTH, expand=1)
 
         self.scrollbar = Scrollbar(self.channels_frame)
         self.scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
         self.channels_listbox = Listbox(self.channels_frame, yscrollcommand=self.scrollbar.set)
-        self.channels_listbox.pack(fill=tk.X)
+        self.channels_listbox.pack(fill=tk.BOTH, expand=1)
 
         self.scrollbar.config(command=self.channels_listbox.yview)
 
-        self.channels = []
+        # Channels list
+        self.channels = []  # Will contain list of dicts with 'nombre' and 'url'
 
         self.update_video_frame()
+        self.load_channels()
 
     def update_video_frame(self):
         """Attach VLC video to the Tkinter canvas."""
@@ -64,21 +70,41 @@ class IPTVPlayer:
         else:
             self.player.set_xwindow(self.canvas.winfo_id())
 
+    def load_channels(self):
+        """Load channels from a JSON file."""
+        if os.path.exists(CHANNELS_FILE):
+            with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
+                self.channels = json.load(f)
+                for channel in self.channels:
+                    self.channels_listbox.insert(tk.END, channel["nombre"])
+        else:
+            messagebox.showwarning("Channels File Missing", f"{CHANNELS_FILE} not found!")
+
+    def save_channels(self):
+        """Save current channels to the JSON file."""
+        with open(CHANNELS_FILE, "w", encoding="utf-8") as f:
+            json.dump(self.channels, f, indent=2, ensure_ascii=False)
+
     def add_channel(self):
+        nombre = simpledialog.askstring("Input", "Enter Channel Name:")
+        if not nombre:
+            return
         url = simpledialog.askstring("Input", "Enter IPTV stream URL:")
         if url:
-            self.channels.append(url)
-            self.channels_listbox.insert(tk.END, url)
-            messagebox.showinfo("Channel Added", f"Channel added: {url}")
+            new_channel = {"nombre": nombre, "url": url}
+            self.channels.append(new_channel)
+            self.channels_listbox.insert(tk.END, nombre)
+            self.save_channels()
+            messagebox.showinfo("Channel Added", f"Channel added: {nombre}")
 
     def play_channel(self):
         selection = self.channels_listbox.curselection()
         if not selection:
             messagebox.showwarning("No Channel Selected", "Please select a channel from the list.")
             return
-        
+
         index = selection[0]
-        channel_url = self.channels[index]
+        channel_url = self.channels[index]["url"]
         media = self.Instance.media_new(channel_url)
         self.player.set_media(media)
         self.player.play()
